@@ -13,9 +13,10 @@
     <title>Sorting task</title>
   </head>
   <body>
-    <div class="select-menu">
+    <h1 style="color: darkgrey; padding: 20px">Sorting Task JS</h1>
+    <div style="padding: 20px" class="select-menu">
       <select id="select-stars">
-        <option value="">Stars</option>
+        <option value="Stars">Stars</option>
         <option value="Arlene Tur">Arlene Tur</option>
         <option value="Benjamin Mouton">Benjamin Mouton</option>
         <option value="Beth Grant">Beth Grant</option>
@@ -80,9 +81,18 @@
         <option value="William Baldwin">William Baldwin</option>
       </select>
     </div>
-
-    <button id="progress-button" onChange="update()">Process</button>
-    <div id="search-answer"></div>
+    <button
+      style="
+        border-radius: 5px;
+        margin: 20px;
+        background-color: rgb(156, 168, 156);
+      "
+      id="progress-button"
+      onChange="update()"
+    >
+      Process
+    </button>
+    <div style="padding: 20px" id="search-answer"></div>
     <script src="index.js"></script>
   </body>
 </html>

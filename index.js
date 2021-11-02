@@ -83,6 +83,7 @@ const spotlightArray = [
   'Tim Progosh',
 ];
 const movies = {
+  Star: ['Stars'],
   Dinner: dinnerArray,
   Footloose: footlooseArray,
   Flatliners: flatlinersArray,
@@ -90,12 +91,13 @@ const movies = {
   Spotlight: spotlightArray,
 };
 const results = {
+  Star: ': Choose a movie star from the list.',
   Dinner: '-> Kevin Bacon',
   Footloose: '-> Kevin Bacon',
   Flatliners: '-> Kevin Bacon',
   EatPrayLove: '-> Julia Roberts -> Flatliners -> Kevin Bacon',
   Spotlight:
-    'Richard Jenkins -> Eat Pray Love -> Julia Roberts -> Flatliners -> Kevin Bacon',
+    '-> Richard Jenkins -> Eat Pray Love -> Julia Roberts -> Flatliners -> Kevin Bacon',
 };
 
 const update = (event) => {
